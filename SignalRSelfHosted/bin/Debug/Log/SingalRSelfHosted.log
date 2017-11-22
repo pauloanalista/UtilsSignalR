@@ -1,0 +1,52 @@
+2017-11-17 14:03:50,773 [1] INFO Topshelf.HostFactory - Configuration Result:
+[Success] Name MSW.SignalR.Service
+[Success] DisplayName MSW SignalR Service
+[Success] Description MSW Self hosted signal server using TopShelf
+[Success] ServiceName MSW.SignalR.Service
+2017-11-17 14:03:50,790 [1] INFO Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-11-17 14:03:50,933 [1] INFO SignalRSelfHosted.SignalRConfiguration - Starting Service SignalR...
+2017-11-17 14:03:51,131 [1] INFO SignalRSelfHosted.SignalRConfiguration - SignalR Service Started and Running in: http://192.168.1.44:8082/
+2017-11-17 14:03:51,132 [1] INFO Topshelf.Hosts.ConsoleRunHost - The MSW.SignalR.Service service is now running, press Control+C to exit.
+2017-11-17 14:04:17,780 [1] INFO Topshelf.HostFactory - Configuration Result:
+[Success] Name MSW.SignalR.Service
+[Success] DisplayName MSW SignalR Service
+[Success] Description MSW Self hosted signal server using TopShelf
+[Success] ServiceName MSW.SignalR.Service
+2017-11-17 14:04:17,793 [1] INFO Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-11-17 14:04:17,889 [1] INFO SignalRSelfHosted.SignalRConfiguration - Starting Service SignalR...
+2017-11-17 14:04:18,092 [1] INFO SignalRSelfHosted.SignalRConfiguration - SignalR Service Started and Running in: http://127.0.0.1:8082/
+2017-11-17 14:04:18,092 [1] INFO Topshelf.Hosts.ConsoleRunHost - The MSW.SignalR.Service service is now running, press Control+C to exit.
+2017-11-17 14:04:49,032 [1] INFO Topshelf.HostFactory - Configuration Result:
+[Success] Name MSW.SignalR.Service
+[Success] DisplayName MSW SignalR Service
+[Success] Description MSW Self hosted signal server using TopShelf
+[Success] ServiceName MSW.SignalR.Service
+2017-11-17 14:04:49,046 [1] INFO Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-11-17 14:04:49,161 [1] INFO SignalRSelfHosted.SignalRConfiguration - Starting Service SignalR...
+2017-11-17 14:04:49,331 [1] ERROR SignalRSelfHosted.SignalRConfiguration - System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: The format of the specified network name is invalid
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory)
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.StartServer(StartContext context)
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context)
+   at Microsoft.Owin.Hosting.Starter.DirectHostingStarter.Start(StartOptions options)
+   at Microsoft.Owin.Hosting.Starter.HostingStarter.Start(StartOptions options)
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options)
+   at Microsoft.Owin.Hosting.WebApp.Start(StartOptions options)
+   at Microsoft.Owin.Hosting.WebApp.Start(String url)
+   at SignalRSelfHosted.SignalRService.Start(HostControl hostControl) in C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRSelfHosted\SignalRService.cs:line 27
+2017-11-17 14:07:04,453 [1] INFO Topshelf.HostFactory - Configuration Result:
+[Success] Name SignalR.Server.SelfHosted
+[Success] DisplayName SignalR SelfHosted
+[Success] Description SignalR SelfHosted Using TopShelf
+[Success] ServiceName SignalR.Server.SelfHosted
+2017-11-17 14:07:04,469 [1] INFO Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2017-11-17 14:07:04,572 [1] INFO SignalRSelfHosted.SignalRConfiguration - Starting Service SignalR...
+2017-11-17 14:07:04,765 [1] INFO SignalRSelfHosted.SignalRConfiguration - SignalR Service Started and Running in: http://127.0.0.1:8082/
+2017-11-17 14:07:04,765 [1] INFO Topshelf.Hosts.ConsoleRunHost - The SignalR.Server.SelfHosted service is now running, press Control+C to exit.
