@@ -7,7 +7,7 @@
 SignalRSelfHosted.exe install
 SignalRSelfHosted.exe uninstall
 ```
-## SingletonSignalRConnection
+## SignalRConnection
 
 ### Instalação
 ```
