@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSelfHosted", "SignalRSelfHosted\SignalRSelfHosted.csproj", "{B4D9A87A-2783-46EC-8209-C30401B1C3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRConnection", "SignalRConnection\SignalRConnection.csproj", "{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTeste", "AppTeste\AppTeste.csproj", "{BB8892CF-9499-43D6-B053-19D5BC112229}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,34 +15,11 @@ Global
 		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB8892CF-9499-43D6-B053-19D5BC112229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB8892CF-9499-43D6-B053-19D5BC112229}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB8892CF-9499-43D6-B053-19D5BC112229}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB8892CF-9499-43D6-B053-19D5BC112229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6227E09-22EF-458E-9F80-A82498E59B78}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://racprojects.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = AppTeste\\AppTeste.csproj
-		SccProjectName1 = AppTeste
-		SccLocalPath1 = AppTeste
-		SccProjectUniqueName2 = SignalRConnection\\SignalRConnection.csproj
-		SccProjectName2 = SignalRConnection
-		SccLocalPath2 = SignalRConnection
-		SccProjectUniqueName3 = SignalRSelfHosted\\SignalRSelfHosted.csproj
-		SccProjectName3 = SignalRSelfHosted
-		SccLocalPath3 = SignalRSelfHosted
 	EndGlobalSection
 EndGlobal
