@@ -1,17 +1,10 @@
 # UtilsSignalR
-- Serviço SignalR Self-Hosted, utilizando Topshelf, SimpleInjector e Log4Net. 
-  
-### Serviço SignalR Topshelf
-```
-SignalRSelfHosted.exe install
-SignalRSelfHosted.exe uninstall
-```
 
 ## SignalRConnection
 
 ### Instalação
 ```
-Install-Package SignalRConnection -Version 1.0.3
+Install-Package SignalRConnection -Version 1.0.4
 ```
   
 ### Exemplo 
