@@ -1,11 +1,7 @@
 # UtilsSignalR
 
-## SignalRConnection
-
-### Instalação
-```
-Install-Package SignalRConnection -Version 1.0.4
-```
+### SignalRConnection
+- Encapsula a criação de conexões e chamada aos métodos de um serviço SignalR.
   
 ### Exemplo 
 - SignalRCreateConnection
