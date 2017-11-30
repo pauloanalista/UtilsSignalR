@@ -11,7 +11,7 @@ SignalRSelfHosted.exe uninstall
 
 ### Instalação
 ```
-Install-Package SignalRConnection -Version 1.0.3
+Install-Package SignalRConnection -Version 1.0.4
 ```
   
 ### Exemplo 
