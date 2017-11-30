@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSelfHosted", "SignalRSelfHosted\SignalRSelfHosted.csproj", "{B4D9A87A-2783-46EC-8209-C30401B1C3C3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRConnection", "SignalRConnection\SignalRConnection.csproj", "{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppClient1", "ConsoleAppClient1\ConsoleAppClient1.csproj", "{A5DD3618-A1BA-4B95-B792-5F2A47FA3A95}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4D9A87A-2783-46EC-8209-C30401B1C3C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2883BB7B-EC28-497F-95BC-E747BCB2F7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,21 +35,18 @@ Global
 		SolutionGuid = {E6227E09-22EF-458E-9F80-A82498E59B78}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
+		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://racprojects.visualstudio.com/
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = SignalRConnection\\SignalRConnection.csproj
 		SccProjectName1 = SignalRConnection
 		SccLocalPath1 = SignalRConnection
-		SccProjectUniqueName2 = SignalRSelfHosted\\SignalRSelfHosted.csproj
-		SccProjectName2 = SignalRSelfHosted
-		SccLocalPath2 = SignalRSelfHosted
-		SccProjectUniqueName3 = ConsoleAppClient1\\ConsoleAppClient1.csproj
-		SccProjectName3 = ConsoleAppClient1
-		SccLocalPath3 = ConsoleAppClient1
-		SccProjectUniqueName4 = ConsoleAppClient2\\ConsoleAppClient2.csproj
-		SccProjectName4 = ConsoleAppClient2
-		SccLocalPath4 = ConsoleAppClient2
+		SccProjectUniqueName2 = ConsoleAppClient1\\ConsoleAppClient1.csproj
+		SccProjectName2 = ConsoleAppClient1
+		SccLocalPath2 = ConsoleAppClient1
+		SccProjectUniqueName3 = ConsoleAppClient2\\ConsoleAppClient2.csproj
+		SccProjectName3 = ConsoleAppClient2
+		SccLocalPath3 = ConsoleAppClient2
 	EndGlobalSection
 EndGlobal
