@@ -116,4 +116,4 @@
 - Topshelf (http://topshelf-project.com/index.html)
 - Log4net (https://logging.apache.org/log4net/)
 - SimpleInjector (https://simpleinjector.readthedocs.io/en/latest/webapiintegration.html)
-- Exemplo ServiçoSignalR com Topshelf (https://github.com/RobertoCamara/SignalRSelfHosted)
+- Exemplo Serviço SignalR com Topshelf (https://github.com/RobertoCamara/SignalRSelfHosted)
