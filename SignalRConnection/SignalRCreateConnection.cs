@@ -18,6 +18,8 @@ namespace SignalRConnection
         private readonly ILog _logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public bool ServerOnline { get; private set; }
 
+        public string ConnectionId => _hubConnection.Value.ConnectionId;
+
         public SignalRCreateConnection(string hostSignalR, string hubName)
         {
             _hostSignalR = hostSignalR;
@@ -67,9 +69,10 @@ namespace SignalRConnection
             {
                 bool isConnected = (_hubConnection.Value.State == ConnectionState.Connected);
 
-                if (!isConnected) StartHubConnectionAsync().Wait();
+                if (!isConnected)
+                    StartHubConnectionAsync().Wait();
 
-                return isConnected;
+                return _hubConnection.Value.State == ConnectionState.Connected;
             }
         }
 
@@ -131,6 +134,61 @@ namespace SignalRConnection
             StartHubConnectionAsync().Wait();
 
             var result = _hubProxy.On<T>(eventName, onData);
+
+            return result;
+        }
+
+        
+        public IDisposable On<T1, T2>(string eventName, Action<T1, T2> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2>(eventName, onData);
+
+            return result;
+        }
+
+        public IDisposable On<T1, T2, T3>(string eventName, Action<T1, T2, T3> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2, T3>(eventName, onData);
+
+            return result;
+        }
+
+        public IDisposable On<T1, T2, T3, T4>(string eventName, Action<T1, T2, T3, T4> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2, T3, T4>(eventName, onData);
+
+            return result;
+        }
+
+        public IDisposable On<T1, T2, T3, T4, T5>(string eventName, Action<T1, T2, T3, T4, T5> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2, T3, T4, T5>(eventName, onData);
+
+            return result;
+        }
+
+        public IDisposable On<T1, T2, T3, T4, T5, T6>(string eventName, Action<T1, T2, T3, T4, T5, T6> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2, T3, T4, T5, T6>(eventName, onData);
+
+            return result;
+        }
+
+        public IDisposable On<T1, T2, T3, T4, T5, T6, T7>(string eventName, Action<T1, T2, T3, T4, T5, T6, T7> onData)
+        {
+            StartHubConnectionAsync().Wait();
+
+            var result = _hubProxy.On<T1, T2, T3, T4, T5, T6, T7>(eventName, onData);
 
             return result;
         }

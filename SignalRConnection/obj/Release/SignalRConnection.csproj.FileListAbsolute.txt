@@ -1,0 +1,11 @@
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\log4net.config
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\SignalRConnection.dll
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\SignalRConnection.pdb
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\log4net.dll
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\Newtonsoft.Json.dll
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\log4net.xml
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Release\SignalRConnection.csproj.CoreCompileInputs.cache
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Release\SignalRConnection.dll
+C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Release\SignalRConnection.pdb

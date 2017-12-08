@@ -9,4 +9,3 @@ C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\bin\Debug\Microsoft.As
 C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Debug\SignalRConnection.csproj.CoreCompileInputs.cache
 C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Debug\SignalRConnection.dll
 C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Debug\SignalRConnection.pdb
-C:\Roberto\MyPackagesNuget\UtilsSignalR\SignalRConnection\obj\Debug\SignalRConnection.csprojResolveAssemblyReference.cache
